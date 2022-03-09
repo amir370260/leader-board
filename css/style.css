@@ -75,14 +75,56 @@ top players css
 .player {
     display: flex;
     align-items: center;
-    margin: 10px 30px 20px;
+    margin: 15px 0px 15px;
 }
 .player img {
-    width: 56px;
-    height: 56px;
+    width: 55px;
+    height: 55px;
 }
 .player h3{
     font-size: 18px;
     font-weight: 500;
     margin-left: 15px;
+}
+
+/* ******************************
+top blogs css
+*************************** */
+.top-blogs h2{
+    font-size: 24px;
+    color: #562EFF;
+    font-weight: 500;
+}
+.top-blogs {
+    padding: 20px;
+    margin: 20px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+}
+.blog{
+    display: flex;
+   align-items: center;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 15px;
+}
+.b-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.auther{
+    color:  #9F9F9F;
+    font-size:16px;
+}
+.auther a{
+    color: #562EFF;
+    font-size: 17px;
+    font-weight: 600;
 }
